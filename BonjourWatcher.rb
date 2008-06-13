@@ -29,7 +29,7 @@ class BonjourWatcher < OSX::NSObject
     @service_messages = {}
     
     service('git') do |service|
-      [ "gitjour", "git clone #{service.name}" ]
+      [ "gitjour", "git clone #{service.name}", lambda {|msg|} ]
     end
     
     service('pastejour') do |service|
@@ -42,7 +42,7 @@ class BonjourWatcher < OSX::NSObject
     end
     
     service('rubygems') do |service|
-      ['gemjour', "gem server #{service.name}"]
+      ['gemjour', "gem server #{service.name}", lambda {|msg|}]
     end
   end
   
