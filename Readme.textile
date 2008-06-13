@@ -1,0 +1,79 @@
+h1. starjour
+
+A wee rubycocoa gooey for monitoring scripts of the *jour fad.
+
+You need xcode to compile it.
+
+h2. expando ~/.jourrc
+
+You can double click on a message to make it do something appropriate.
+The builtin service spies don't really do much at the moment.
+
+To implement your own behaviour, put something like this in @~/.jourrc@
+<pre>
+puts "reading .jourrc"
+
+service('pastejour') do |service|
+  (from, to) = *service.name.split('-')
+  
+  message = "Paste from #{from}"
+  message << " to #{to}" if to
+  
+  ['pastejour', message, lambda {|msg| system("/opt/local/bin/pastejour '#{msg[:service].name}' | pbcopy"); 'copied to pasteboard'}]
+end
+
+# or a whole darn class, in this form:
+
+class Paste < OSX::NSObject
+  attr_reader :text
+
+  def initWithService(service)
+    if init
+      @service = service
+
+      (from, to) = *service.name.split('-')
+
+      @text = "Paste from #{from}"
+      @text << " to #{to}" if to
+    end
+    self
+  end
+
+  def service_name; 'paste' end
+
+  def run
+    system("/opt/local/bin/pastejour '#{@service.name}' | pbcopy")
+    'copied to pasteboard'
+  end
+end
+
+service('pastejour',Paste)
+</pre>
+
+h2. whence
+
+Dr Nic was asking for help on his version (rubyjour) which we couldn't get to fly.
+I couldn't stop thinking about it, so I had to get this done!
+
+h2. license
+
+Copyright (c) 2008 Lachie Cox
+ 
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+ 
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
