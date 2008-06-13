@@ -46,7 +46,7 @@
 	};
 	086D849B0E020D18008A3B2B /* AppDelegate.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 459}}";
+			sepNavIntBoundsRect = "{{0, 0}, {810, 482}}";
 			sepNavSelRange = "{275, 0}";
 			sepNavVisRange = "{0, 275}";
 		};
@@ -111,9 +111,19 @@
 		vrLen = 275;
 		vrLoc = 0;
 	};
+	08B2B5830E0233D90084F4D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 086D849B0E020D18008A3B2B /* AppDelegate.rb */;
+		name = "AppDelegate.rb: 18";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 275;
+		vrLoc = 0;
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecture = i386;
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 086D843A0E01FF9A008A3B2B /* starjour */;
 		activeTarget = 4DDCA7030ACC9A6100E082CE /* starjour */;
 		addToTargets = (
@@ -178,6 +188,7 @@
 			086D84A90E021198008A3B2B = 086D84A90E021198008A3B2B /* PBXTextBookmark */;
 			08B2B57C0E0230BB0084F4D3 /* PBXTextBookmark */ = 08B2B57C0E0230BB0084F4D3 /* PBXTextBookmark */;
 			08B2B57F0E0230BF0084F4D3 /* PBXTextBookmark */ = 08B2B57F0E0230BF0084F4D3 /* PBXTextBookmark */;
+			08B2B5830E0233D90084F4D3 /* PBXTextBookmark */ = 08B2B5830E0233D90084F4D3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 086D844C0E01FFA5008A3B2B /* Source Control */;
 		userBuildSettings = {

@@ -2,7 +2,7 @@ h1. starjour
 
 A wee rubycocoa gooey for monitoring scripts of the *jour fad.
 
-You need xcode to compile it.
+You need xcode to compile it, but a pre-compiled version is here: http://rails-oceania.googlecode.com/files/starjour.zip
 
 h2. expando ~/.jourrc
 

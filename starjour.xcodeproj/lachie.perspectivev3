@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Debug</string>
+	<string>Project</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -233,6 +233,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -297,6 +299,8 @@
 							<string>MainColumn</string>
 							<real>185</real>
 						</array>
+						<key>RubberWindowFrame</key>
+						<string>440 398 1078 780 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -324,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>08B2B57F0E0230BF0084F4D3</string>
+										<string>08B2B5830E0233D90084F4D3</string>
 										<key>history</key>
 										<array>
 											<string>086D849E0E02107B008A3B2B</string>
@@ -347,6 +351,8 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {871, 514}}</string>
+								<key>RubberWindowFrame</key>
+								<string>440 398 1078 780 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -370,6 +376,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {871, 193}}</string>
+										<key>RubberWindowFrame</key>
+										<string>440 398 1078 780 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -494,8 +502,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -507,8 +513,6 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1078, 734}}</string>
-						<key>RubberWindowFrame</key>
-						<string>595 286 1078 780 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -583,11 +587,7 @@
 							</array>
 							<key>Frame</key>
 							<string>{{526, 0}, {552, 80}}</string>
-							<key>RubberWindowFrame</key>
-							<string>595 286 1078 780 0 0 1920 1178 </string>
 						</dict>
-						<key>RubberWindowFrame</key>
-						<string>595 286 1078 780 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -650,7 +650,7 @@
 		<string>/Users/lachie/dev/rubycocoa/starjour/starjour.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>595 286 1078 780 0 0 1920 1178 </string>
+	<string>440 398 1078 780 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
