@@ -109,6 +109,11 @@ def xcode_configurations
   configurations
 end
 
+desc "Load project in Xcode"
+task :xcode do
+  sh "open #{File.dirname(__FILE__)} -a Xcode"
+end
+
 namespace :xcode do
  targets = xcode_targets
  configs = xcode_configurations
