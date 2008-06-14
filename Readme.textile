@@ -2,8 +2,7 @@ h1. starjour
 
 A wee rubycocoa gooey for monitoring scripts of the *jour fad.
 
-<div class="thumbnail"><a href="http://skitch.com/drnic/p16g/starjour"><img src="http://img.skitch.com/20080613-cmtb9dudrkx628qdf4naxx9e2f.preview.jpg" alt="Starjour" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
-
+<div class="thumbnail"><a href="http://skitch.com/drnic/pijq/starjour-panels-branch"><img src="http://img.skitch.com/20080614-djkic983rsuf953n5dfiuacexd.preview.jpg" alt="Starjour - panels branch" /></a><br /><span style="font-family: Lucida Grande, Trebuchet, sans-serif, Helvetica, Arial; font-size: 10px; color: #808080">Uploaded with <a href="http://plasq.com/">plasq</a>'s <a href="http://skitch.com">Skitch</a>!</span></div>
 You need xcode to compile it, but a pre-compiled version is here: http://rails-oceania.googlecode.com/files/starjour-0.1.0.zip
 
 h2. expando ~/.jourrc
