@@ -94,7 +94,11 @@ class BonjourWatcher < OSX::NSObject
     if srv = @known_services[name]
       if srv.respond_to?(:call)
         service_name,text,runner = srv.call(service)
-        message = {:service_name => service_name, :text => text, :runner => runner, :service => service}
+        message = {:service_name => service_name, :text => text, :runner => runner, :service => service} # :image
+        # message = NSDictionary.dictionaryWithObjectsAndKeys(
+        #   text, "text",
+        #   nil
+        # )
       else
         message = srv.alloc.initWithService(service)
       end
