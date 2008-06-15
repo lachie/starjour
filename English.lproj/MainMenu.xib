@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.01">
+<archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.02">
 	<data>
 		<int key="IBDocument.SystemTarget">1050</int>
 		<string key="IBDocument.SystemVersion">9D34</string>
-		<string key="IBDocument.InterfaceBuilderVersion">629</string>
+		<string key="IBDocument.InterfaceBuilderVersion">658</string>
 		<string key="IBDocument.AppKitVersion">949.33</string>
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
@@ -13,19 +13,24 @@
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 			<string id="462146999">com.apple.InterfaceBuilderKit</string>
 			<string id="145820752">com.apple.InterfaceBuilder.CocoaPlugin</string>
+=======
+			<string>com.apple.InterfaceBuilderKit</string>
+			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 		</object>
 		<object class="NSMutableArray" key="IBDocument.RootObjects" id="1048">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<object class="NSCustomObject" id="1021">
-				<string key="NSClassName" id="855170096">NSApplication</string>
+				<string key="NSClassName">NSApplication</string>
 			</object>
 			<object class="NSCustomObject" id="1014">
 				<string key="NSClassName">FirstResponder</string>
 			</object>
 			<object class="NSCustomObject" id="1050">
-				<reference key="NSClassName" ref="855170096"/>
+				<string key="NSClassName">NSApplication</string>
 			</object>
 			<object class="NSMenu" id="649796088">
 				<string key="NSTitle">AMainMenu</string>
@@ -33,41 +38,61 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="NSMenuItem" id="694149608">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle" id="183474047">StarJour</string>
-						<string key="NSKeyEquiv" id="131746017"/>
+						<string key="NSTitle">StarJour</string>
+						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<object class="NSCustomResource" key="NSOnImage" id="161131484">
 							<string key="NSClassName" id="449527531">NSImage</string>
+=======
+						<object class="NSCustomResource" key="NSOnImage" id="859286150">
+							<string key="NSClassName">NSImage</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 							<string key="NSResourceName">NSMenuCheckmark</string>
 						</object>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<object class="NSCustomResource" key="NSMixedImage" id="844229363">
 							<reference key="NSClassName" ref="449527531"/>
+=======
+						<object class="NSCustomResource" key="NSMixedImage" id="917476858">
+							<string key="NSClassName">NSImage</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 							<string key="NSResourceName">NSMenuMixedState</string>
 						</object>
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="110575045">
-							<reference key="NSTitle" ref="183474047"/>
+							<string key="NSTitle">StarJour</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="238522557">
 									<reference key="NSMenu" ref="110575045"/>
 									<string key="NSTitle">About StarJour</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="304266470">
 									<reference key="NSMenu" ref="110575045"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="609285721">
 									<reference key="NSMenu" ref="110575045"/>
@@ -75,31 +100,46 @@
 									<string key="NSKeyEquiv">,</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="481834944">
 									<reference key="NSMenu" ref="110575045"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="1046388886">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle" id="645357882">Services</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle">Services</string>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="752062318">
-										<reference key="NSTitle" ref="645357882"/>
+										<string key="NSTitle">Services</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 										</object>
@@ -110,50 +150,75 @@
 									<reference key="NSMenu" ref="110575045"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="755159360">
 									<reference key="NSMenu" ref="110575045"/>
 									<string key="NSTitle">Hide NewApplication</string>
-									<string key="NSKeyEquiv" id="529178771">h</string>
+									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="342932134">
 									<reference key="NSMenu" ref="110575045"/>
 									<string key="NSTitle">Hide Others</string>
-									<reference key="NSKeyEquiv" ref="529178771"/>
+									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="908899353">
 									<reference key="NSMenu" ref="110575045"/>
 									<string key="NSTitle">Show All</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="1056857174">
 									<reference key="NSMenu" ref="110575045"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="632727374">
 									<reference key="NSMenu" ref="110575045"/>
@@ -161,8 +226,13 @@
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 							</object>
 							<string key="NSName">_NSAppleMenu</string>
@@ -170,15 +240,20 @@
 					</object>
 					<object class="NSMenuItem" id="379814623">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle" id="629659105">File</string>
-						<reference key="NSKeyEquiv" ref="131746017"/>
+						<string key="NSTitle">File</string>
+						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="NSOnImage" ref="161131484"/>
 						<reference key="NSMixedImage" ref="844229363"/>
+=======
+						<reference key="NSOnImage" ref="859286150"/>
+						<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="720053764">
-							<reference key="NSTitle" ref="629659105"/>
+							<string key="NSTitle">File</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="705341025">
@@ -187,8 +262,13 @@
 									<string key="NSKeyEquiv">n</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="722745758">
 									<reference key="NSMenu" ref="720053764"/>
@@ -196,30 +276,45 @@
 									<string key="NSKeyEquiv">o</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="1025936716">
 									<reference key="NSMenu" ref="720053764"/>
-									<string key="NSTitle" id="402139344">Open Recent</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle">Open Recent</string>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="1065607017">
-										<reference key="NSTitle" ref="402139344"/>
+										<string key="NSTitle">Open Recent</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="759406840">
 												<reference key="NSMenu" ref="1065607017"/>
 												<string key="NSTitle">Clear Menu</string>
-												<reference key="NSKeyEquiv" ref="131746017"/>
+												<string key="NSKeyEquiv"/>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 											</object>
 										</object>
 										<string key="NSName">_NSRecentDocumentsMenu</string>
@@ -229,12 +324,17 @@
 									<reference key="NSMenu" ref="720053764"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="776162233">
 									<reference key="NSMenu" ref="720053764"/>
@@ -242,8 +342,13 @@
 									<string key="NSKeyEquiv">w</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="1023925487">
 									<reference key="NSMenu" ref="720053764"/>
@@ -251,8 +356,13 @@
 									<string key="NSKeyEquiv">s</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="117038363">
 									<reference key="NSMenu" ref="720053764"/>
@@ -260,27 +370,42 @@
 									<string key="NSKeyEquiv">S</string>
 									<int key="NSKeyEquivModMask">1179648</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="579971712">
 									<reference key="NSMenu" ref="720053764"/>
 									<string key="NSTitle">Revert to Saved</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="1010469920">
 									<reference key="NSMenu" ref="720053764"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="294629803">
 									<reference key="NSMenu" ref="720053764"/>
@@ -288,9 +413,15 @@
 									<string key="NSKeyEquiv">P</string>
 									<int key="NSKeyEquivModMask">1179648</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
 									<reference key="NSToolTip" ref="131746017"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+									<string key="NSToolTip"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="49223823">
 									<reference key="NSMenu" ref="720053764"/>
@@ -298,23 +429,33 @@
 									<string key="NSKeyEquiv">p</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 							</object>
 						</object>
 					</object>
 					<object class="NSMenuItem" id="952259628">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle" id="207545681">Edit</string>
-						<reference key="NSKeyEquiv" ref="131746017"/>
+						<string key="NSTitle">Edit</string>
+						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="NSOnImage" ref="161131484"/>
 						<reference key="NSMixedImage" ref="844229363"/>
+=======
+						<reference key="NSOnImage" ref="859286150"/>
+						<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="789758025">
-							<reference key="NSTitle" ref="207545681"/>
+							<string key="NSTitle">Edit</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="1058277027">
@@ -323,8 +464,13 @@
 									<string key="NSKeyEquiv">z</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="790794224">
 									<reference key="NSMenu" ref="789758025"/>
@@ -332,19 +478,29 @@
 									<string key="NSKeyEquiv">Z</string>
 									<int key="NSKeyEquivModMask">1179648</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="1040322652">
 									<reference key="NSMenu" ref="789758025"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="296257095">
 									<reference key="NSMenu" ref="789758025"/>
@@ -352,8 +508,13 @@
 									<string key="NSKeyEquiv">x</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="860595796">
 									<reference key="NSMenu" ref="789758025"/>
@@ -361,8 +522,13 @@
 									<string key="NSKeyEquiv">c</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="29853731">
 									<reference key="NSMenu" ref="789758025"/>
@@ -370,17 +536,27 @@
 									<string key="NSKeyEquiv">v</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="437104165">
 									<reference key="NSMenu" ref="789758025"/>
 									<string key="NSTitle">Delete</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="583158037">
 									<reference key="NSMenu" ref="789758025"/>
@@ -388,61 +564,91 @@
 									<string key="NSKeyEquiv">a</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="212016141">
 									<reference key="NSMenu" ref="789758025"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="892235320">
 									<reference key="NSMenu" ref="789758025"/>
-									<string key="NSTitle" id="851354525">Find</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle">Find</string>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="963351320">
-										<reference key="NSTitle" ref="851354525"/>
+										<string key="NSTitle">Find</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="447796847">
 												<reference key="NSMenu" ref="963351320"/>
 												<string type="base64-UTF8" key="NSTitle">RmluZOKApg</string>
-												<string key="NSKeyEquiv" id="475419166">f</string>
+												<string key="NSKeyEquiv">f</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 												<int key="NSTag">1</int>
 											</object>
 											<object class="NSMenuItem" id="326711663">
 												<reference key="NSMenu" ref="963351320"/>
 												<string key="NSTitle">Find Next</string>
-												<string key="NSKeyEquiv" id="277632417">g</string>
+												<string key="NSKeyEquiv">g</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 												<int key="NSTag">2</int>
 											</object>
 											<object class="NSMenuItem" id="270902937">
 												<reference key="NSMenu" ref="963351320"/>
 												<string key="NSTitle">Find Previous</string>
-												<string key="NSKeyEquiv" id="466808024">G</string>
+												<string key="NSKeyEquiv">G</string>
 												<int key="NSKeyEquivModMask">1179648</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 												<int key="NSTag">3</int>
 											</object>
 											<object class="NSMenuItem" id="159080638">
@@ -451,8 +657,13 @@
 												<string key="NSKeyEquiv">e</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 												<int key="NSTag">7</int>
 											</object>
 											<object class="NSMenuItem" id="88285865">
@@ -461,23 +672,33 @@
 												<string key="NSKeyEquiv">j</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 											</object>
 										</object>
 									</object>
 								</object>
 								<object class="NSMenuItem" id="972420730">
 									<reference key="NSMenu" ref="789758025"/>
-									<string key="NSTitle" id="422022192">Spelling and Grammar</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle">Spelling and Grammar</string>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="769623530">
-										<reference key="NSTitle" ref="422022192"/>
+										<string key="NSTitle">Spelling and Grammar</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="679648819">
@@ -486,8 +707,13 @@
 												<string key="NSKeyEquiv">:</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 											</object>
 											<object class="NSMenuItem" id="96193923">
 												<reference key="NSMenu" ref="769623530"/>
@@ -495,71 +721,106 @@
 												<string key="NSKeyEquiv">;</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 											</object>
 											<object class="NSMenuItem" id="948374510">
 												<reference key="NSMenu" ref="769623530"/>
 												<string key="NSTitle">Check Spelling While Typing</string>
-												<reference key="NSKeyEquiv" ref="131746017"/>
+												<string key="NSKeyEquiv"/>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 											</object>
 											<object class="NSMenuItem" id="967646866">
 												<reference key="NSMenu" ref="769623530"/>
 												<string key="NSTitle">Check Grammar With Spelling</string>
-												<reference key="NSKeyEquiv" ref="131746017"/>
+												<string key="NSKeyEquiv"/>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 											</object>
 										</object>
 									</object>
 								</object>
 								<object class="NSMenuItem" id="507821607">
 									<reference key="NSMenu" ref="789758025"/>
-									<string key="NSTitle" id="441475652">Substitutions</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle">Substitutions</string>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="698887838">
-										<reference key="NSTitle" ref="441475652"/>
+										<string key="NSTitle">Substitutions</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="605118523">
 												<reference key="NSMenu" ref="698887838"/>
 												<string key="NSTitle">Smart Copy/Paste</string>
-												<reference key="NSKeyEquiv" ref="475419166"/>
+												<string key="NSKeyEquiv">f</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 												<int key="NSTag">1</int>
 											</object>
 											<object class="NSMenuItem" id="197661976">
 												<reference key="NSMenu" ref="698887838"/>
 												<string key="NSTitle">Smart Quotes</string>
-												<reference key="NSKeyEquiv" ref="277632417"/>
+												<string key="NSKeyEquiv">g</string>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 												<int key="NSTag">2</int>
 											</object>
 											<object class="NSMenuItem" id="708854459">
 												<reference key="NSMenu" ref="698887838"/>
 												<string key="NSTitle">Smart Links</string>
-												<reference key="NSKeyEquiv" ref="466808024"/>
+												<string key="NSKeyEquiv">G</string>
 												<int key="NSKeyEquivModMask">1179648</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 												<int key="NSTag">3</int>
 											</object>
 										</object>
@@ -567,34 +828,49 @@
 								</object>
 								<object class="NSMenuItem" id="676164635">
 									<reference key="NSMenu" ref="789758025"/>
-									<string key="NSTitle" id="831174652">Speech</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle">Speech</string>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 									<string key="NSAction">submenuAction:</string>
 									<object class="NSMenu" key="NSSubmenu" id="785027613">
-										<reference key="NSTitle" ref="831174652"/>
+										<string key="NSTitle">Speech</string>
 										<object class="NSMutableArray" key="NSMenuItems">
 											<bool key="EncodedWithXMLCoder">YES</bool>
 											<object class="NSMenuItem" id="731782645">
 												<reference key="NSMenu" ref="785027613"/>
 												<string key="NSTitle">Start Speaking</string>
-												<reference key="NSKeyEquiv" ref="131746017"/>
+												<string key="NSKeyEquiv"/>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 											</object>
 											<object class="NSMenuItem" id="680220178">
 												<reference key="NSMenu" ref="785027613"/>
 												<string key="NSTitle">Stop Speaking</string>
-												<reference key="NSKeyEquiv" ref="131746017"/>
+												<string key="NSKeyEquiv"/>
 												<int key="NSKeyEquivModMask">1048576</int>
 												<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 												<reference key="NSOnImage" ref="161131484"/>
 												<reference key="NSMixedImage" ref="844229363"/>
+=======
+												<reference key="NSOnImage" ref="859286150"/>
+												<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 											</object>
 										</object>
 									</object>
@@ -604,25 +880,35 @@
 					</object>
 					<object class="NSMenuItem" id="626404410">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle" id="434882394">Format</string>
-						<reference key="NSKeyEquiv" ref="131746017"/>
+						<string key="NSTitle">Format</string>
+						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="NSOnImage" ref="161131484"/>
 						<reference key="NSMixedImage" ref="844229363"/>
+=======
+						<reference key="NSOnImage" ref="859286150"/>
+						<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="502084290">
-							<reference key="NSTitle" ref="434882394"/>
+							<string key="NSTitle">Format</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="519768076">
 									<reference key="NSMenu" ref="502084290"/>
 									<string key="NSTitle">Show Fonts</string>
-									<string key="NSKeyEquiv" id="848843446">t</string>
+									<string key="NSKeyEquiv">t</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="1028416764">
 									<reference key="NSMenu" ref="502084290"/>
@@ -630,57 +916,82 @@
 									<string key="NSKeyEquiv">C</string>
 									<int key="NSKeyEquivModMask">1179648</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 							</object>
 						</object>
 					</object>
 					<object class="NSMenuItem" id="586577488">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle" id="907440330">View</string>
-						<reference key="NSKeyEquiv" ref="131746017"/>
+						<string key="NSTitle">View</string>
+						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="NSOnImage" ref="161131484"/>
 						<reference key="NSMixedImage" ref="844229363"/>
+=======
+						<reference key="NSOnImage" ref="859286150"/>
+						<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="466310130">
-							<reference key="NSTitle" ref="907440330"/>
+							<string key="NSTitle">View</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="102151532">
 									<reference key="NSMenu" ref="466310130"/>
 									<string key="NSTitle">Show Toolbar</string>
-									<reference key="NSKeyEquiv" ref="848843446"/>
+									<string key="NSKeyEquiv">t</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="237841660">
 									<reference key="NSMenu" ref="466310130"/>
 									<string type="base64-UTF8" key="NSTitle">Q3VzdG9taXplIFRvb2xiYXLigKY</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 							</object>
 						</object>
 					</object>
 					<object class="NSMenuItem" id="713487014">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle" id="286513995">Window</string>
-						<reference key="NSKeyEquiv" ref="131746017"/>
+						<string key="NSTitle">Window</string>
+						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="NSOnImage" ref="161131484"/>
 						<reference key="NSMixedImage" ref="844229363"/>
+=======
+						<reference key="NSOnImage" ref="859286150"/>
+						<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="835318025">
-							<reference key="NSTitle" ref="286513995"/>
+							<string key="NSTitle">Window</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="1011231497">
@@ -689,37 +1000,57 @@
 									<string key="NSKeyEquiv">m</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="575023229">
 									<reference key="NSMenu" ref="835318025"/>
 									<string key="NSTitle">Zoom</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="299356726">
 									<reference key="NSMenu" ref="835318025"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
-									<reference key="NSTitle" ref="131746017"/>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSTitle"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 								<object class="NSMenuItem" id="625202149">
 									<reference key="NSMenu" ref="835318025"/>
 									<string key="NSTitle">Bring All to Front</string>
-									<reference key="NSKeyEquiv" ref="131746017"/>
+									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 							</object>
 							<string key="NSName">_NSWindowsMenu</string>
@@ -727,15 +1058,20 @@
 					</object>
 					<object class="NSMenuItem" id="391199113">
 						<reference key="NSMenu" ref="649796088"/>
-						<string key="NSTitle" id="425634996">Help</string>
-						<reference key="NSKeyEquiv" ref="131746017"/>
+						<string key="NSTitle">Help</string>
+						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="NSOnImage" ref="161131484"/>
 						<reference key="NSMixedImage" ref="844229363"/>
+=======
+						<reference key="NSOnImage" ref="859286150"/>
+						<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<string key="NSAction">submenuAction:</string>
 						<object class="NSMenu" key="NSSubmenu" id="374024848">
-							<reference key="NSTitle" ref="425634996"/>
+							<string key="NSTitle">Help</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSMenuItem" id="238773614">
@@ -744,8 +1080,13 @@
 									<string key="NSKeyEquiv">?</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSOnImage" ref="161131484"/>
 									<reference key="NSMixedImage" ref="844229363"/>
+=======
+									<reference key="NSOnImage" ref="859286150"/>
+									<reference key="NSMixedImage" ref="917476858"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								</object>
 							</object>
 						</object>
@@ -772,21 +1113,24 @@
 							<int key="NSvFlags">290</int>
 							<string key="NSFrame">{{10, 1}, {342, 17}}</string>
 							<reference key="NSSuperview" ref="414427165"/>
-							<reference key="NSWindow"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="630516147">
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">272630784</int>
 								<string key="NSContents">status...</string>
 								<object class="NSFont" key="NSSupport">
-									<string key="NSName" id="105343088">LucidaGrande</string>
+									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">1.100000e+01</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<reference key="NSControlView" ref="361621960"/>
 								<object class="NSColor" key="NSBackgroundColor" id="210640837">
 									<int key="NSColorSpace">6</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<string key="NSCatalogName" id="713652618">System</string>
+=======
+									<string key="NSCatalogName">System</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 									<string key="NSColorName">controlColor</string>
 									<object class="NSColor" key="NSColor">
 										<int key="NSColorSpace">3</int>
@@ -795,7 +1139,11 @@
 								</object>
 								<object class="NSColor" key="NSTextColor" id="965034473">
 									<int key="NSColorSpace">6</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 									<reference key="NSCatalogName" ref="713652618"/>
+=======
+									<string key="NSCatalogName">System</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 									<string key="NSColorName">controlTextColor</string>
 									<object class="NSColor" key="NSColor" id="574714943">
 										<int key="NSColorSpace">3</int>
@@ -817,11 +1165,10 @@
 										<object class="NSCollectionView" id="548321188">
 											<reference key="NSNextResponder" ref="944338092"/>
 											<int key="NSvFlags">274</int>
-											<string key="NSFrame">{{0, 2095}, {343, 262}}</string>
+											<string key="NSFrameSize">{343, 262}</string>
 											<reference key="NSSuperview" ref="944338092"/>
-											<reference key="NSWindow"/>
-											<string key="NSMinGridSize" id="939011783">{0, 0}</string>
-											<reference key="NSMaxGridSize" ref="939011783"/>
+											<string key="NSMinGridSize">{0, 0}</string>
+											<string key="NSMaxGridSize">{0, 0}</string>
 											<int key="NSMinNumberOfGridRows">0</int>
 											<int key="NSMaxNumberOfGridRows">0</int>
 											<int key="NSMinNumberOfGridColumns">0</int>
@@ -836,9 +1183,7 @@
 										</object>
 									</object>
 									<string key="NSFrame">{{1, 1}, {343, 262}}</string>
-									<string key="NSBounds">{{0, 2095}, {343, 262}}</string>
 									<reference key="NSSuperview" ref="900089199"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="548321188"/>
 									<reference key="NSDocView" ref="548321188"/>
 									<reference key="NSBGColor" ref="210640837"/>
@@ -849,9 +1194,8 @@
 									<int key="NSvFlags">256</int>
 									<string key="NSFrame">{{344, 1}, {15, 262}}</string>
 									<reference key="NSSuperview" ref="900089199"/>
-									<reference key="NSWindow"/>
 									<reference key="NSTarget" ref="900089199"/>
-									<string key="NSAction" id="747338067">_doScroller:</string>
+									<string key="NSAction">_doScroller:</string>
 									<double key="NSCurValue">1.000000e+00</double>
 									<double key="NSPercent">8.965517e-01</double>
 								</object>
@@ -860,16 +1204,14 @@
 									<int key="NSvFlags">256</int>
 									<string key="NSFrame">{{1, 263}, {343, 15}}</string>
 									<reference key="NSSuperview" ref="900089199"/>
-									<reference key="NSWindow"/>
 									<int key="NSsFlags">1</int>
 									<reference key="NSTarget" ref="900089199"/>
-									<reference key="NSAction" ref="747338067"/>
+									<string key="NSAction">_doScroller:</string>
 									<double key="NSPercent">6.315789e-01</double>
 								</object>
 							</object>
 							<string key="NSFrame">{{-8, 20}, {360, 279}}</string>
 							<reference key="NSSuperview" ref="414427165"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="944338092"/>
 							<int key="NSsFlags">50</int>
 							<reference key="NSVScroller" ref="115827275"/>
@@ -879,14 +1221,17 @@
 					</object>
 					<string key="NSFrameSize">{352, 291}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{3.40282e+38, 3.40282e+38}</string>
 				<string key="NSFrameAutosaveName">starjour</string>
 			</object>
 			<object class="NSCustomObject" id="722948515">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 				<string key="NSClassName" id="724575051">BonjourWatcher</string>
+=======
+				<string key="NSClassName">BonjourWatcher</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 			</object>
 			<object class="NSCustomObject" id="284119073">
 				<string key="NSClassName">AppController</string>
@@ -914,13 +1259,16 @@
 						</object>
 						<string key="NSFrame">{{20, 0}, {45, 64}}</string>
 						<reference key="NSSuperview" ref="317160314"/>
-						<reference key="NSWindow"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSImageCell" key="NSCell" id="125148400">
 							<int key="NSCellFlags">130560</int>
 							<int key="NSCellFlags2">33554432</int>
 							<object class="NSCustomResource" key="NSContents">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 								<reference key="NSClassName" ref="449527531"/>
+=======
+								<string key="NSClassName">NSImage</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 								<string key="NSResourceName">NSInfo</string>
 							</object>
 							<int key="NSAlign">0</int>
@@ -935,14 +1283,13 @@
 						<int key="NSvFlags">290</int>
 						<string key="NSFrame">{{73, 20}, {212, 13}}</string>
 						<reference key="NSSuperview" ref="317160314"/>
-						<reference key="NSWindow"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="564607218">
 							<int key="NSCellFlags">67239488</int>
 							<int key="NSCellFlags2">4195328</int>
 							<string key="NSContents">Text</string>
 							<object class="NSFont" key="NSSupport" id="24">
-								<reference key="NSName" ref="105343088"/>
+								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">1.000000e+01</double>
 								<int key="NSfFlags">16</int>
 							</object>
@@ -956,7 +1303,6 @@
 						<int key="NSvFlags">290</int>
 						<string key="NSFrame">{{73, 37}, {85, 13}}</string>
 						<reference key="NSSuperview" ref="317160314"/>
-						<reference key="NSWindow"/>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="1064688791">
 							<int key="NSCellFlags">67239488</int>
@@ -971,7 +1317,6 @@
 				</object>
 				<string key="NSFrameSize">{305, 70}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -1275,14 +1620,19 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label" id="787283651">value: status</string>
+						<string key="label">value: status</string>
 						<reference key="source" ref="361621960"/>
 						<reference key="destination" ref="722948515"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="361621960"/>
 							<reference key="NSDestination" ref="722948515"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 							<reference key="NSLabel" ref="787283651"/>
 							<string key="NSBinding" id="1073470482">value</string>
+=======
+							<string key="NSLabel">value: status</string>
+							<string key="NSBinding">value</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 							<string key="NSKeyPath">status</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
@@ -1291,6 +1641,7 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<string key="label" id="436867821">itemPrototype</string>
 						<reference key="source" ref="548321188"/>
 						<reference key="destination" ref="818864313"/>
@@ -1299,6 +1650,8 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
+=======
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<string key="label">view</string>
 						<reference key="source" ref="818864313"/>
 						<reference key="destination" ref="317160314"/>
@@ -1307,13 +1660,13 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label" id="416659870">content: messages</string>
+						<string key="label">content: messages</string>
 						<reference key="source" ref="548321188"/>
 						<reference key="destination" ref="722948515"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="548321188"/>
 							<reference key="NSDestination" ref="722948515"/>
-							<reference key="NSLabel" ref="416659870"/>
+							<string key="NSLabel">content: messages</string>
 							<string key="NSBinding">content</string>
 							<string key="NSKeyPath">messages</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
@@ -1331,15 +1684,25 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<string key="label" id="552522133">value: representedObject.text</string>
+=======
+						<string key="label">value: representedObject.text</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<reference key="source" ref="564607218"/>
 						<reference key="destination" ref="818864313"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="564607218"/>
 							<reference key="NSDestination" ref="818864313"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 							<reference key="NSLabel" ref="552522133"/>
 							<reference key="NSBinding" ref="1073470482"/>
 							<string key="NSKeyPath" id="1061763528">representedObject.text</string>
+=======
+							<string key="NSLabel">value: representedObject.text</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">representedObject.text</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
@@ -1347,14 +1710,14 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label" id="796743711">value: representedObject.service_name</string>
+						<string key="label">value: representedObject.service_name</string>
 						<reference key="source" ref="30095882"/>
 						<reference key="destination" ref="818864313"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="30095882"/>
 							<reference key="NSDestination" ref="818864313"/>
-							<reference key="NSLabel" ref="796743711"/>
-							<reference key="NSBinding" ref="1073470482"/>
+							<string key="NSLabel">value: representedObject.service_name</string>
+							<string key="NSBinding">value</string>
 							<string key="NSKeyPath">representedObject.service_name</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
@@ -1363,25 +1726,42 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="label" ref="552522133"/>
+=======
+						<string key="label">value: representedObject.text</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<reference key="source" ref="714848346"/>
 						<reference key="destination" ref="818864313"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="714848346"/>
 							<reference key="NSDestination" ref="818864313"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 							<reference key="NSLabel" ref="552522133"/>
 							<reference key="NSBinding" ref="1073470482"/>
 							<reference key="NSKeyPath" ref="1061763528"/>
+=======
+							<string key="NSLabel">value: representedObject.text</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">representedObject.text</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
 					<int key="connectionID">473</int>
 				</object>
 				<object class="IBConnectionRecord">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<object class="IBBindingConnection" key="connection">
 						<string key="label" id="587351793">value: representedObject.image</string>
 						<reference key="source" ref="581097435"/>
+=======
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">itemPrototype</string>
+						<reference key="source" ref="548321188"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 						<reference key="destination" ref="818864313"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="581097435"/>
 							<reference key="NSDestination" ref="818864313"/>
@@ -1390,8 +1770,14 @@
 							<string key="NSKeyPath">representedObject.image</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
+=======
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					</object>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<int key="connectionID">474</int>
+=======
+					<int key="connectionID">475</int>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1465,7 +1851,7 @@
 							<reference ref="374024848"/>
 						</object>
 						<reference key="parent" ref="649796088"/>
-						<string key="objectName" id="299872844">1</string>
+						<string key="objectName">1</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">217</int>
@@ -1552,7 +1938,7 @@
 						<int key="objectID">73</int>
 						<reference key="object" ref="776162233"/>
 						<reference key="parent" ref="720053764"/>
-						<reference key="objectName" ref="299872844"/>
+						<string key="objectName">1</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">79</int>
@@ -1570,7 +1956,7 @@
 						<int key="objectID">74</int>
 						<reference key="object" ref="1010469920"/>
 						<reference key="parent" ref="720053764"/>
-						<string key="objectName" id="27265605">2</string>
+						<string key="objectName">2</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">125</int>
@@ -1743,7 +2129,7 @@
 							<reference ref="238773614"/>
 						</object>
 						<reference key="parent" ref="391199113"/>
-						<reference key="objectName" ref="27265605"/>
+						<string key="objectName">2</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">111</int>
@@ -2287,6 +2673,7 @@
 					<string>451.IBPluginDependency</string>
 					<string>452.CustomClassName</string>
 					<string>453.CustomClassName</string>
+					<string>453.IBEditorWindowLastContentRect</string>
 					<string>453.editorWindowContentRectSynchronizationRect</string>
 					<string>457.IBPluginDependency</string>
 					<string>457.ImportedFromIB2</string>
@@ -2332,158 +2719,415 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
 					<reference ref="462146999"/>
 					<reference ref="462146999"/>
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilderKit</string>
+					<string>com.apple.InterfaceBuilderKit</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<integer value="1" id="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{596, 852}, {216, 23}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{522, 812}, {146, 23}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{436, 809}, {64, 6}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{608, 612}, {275, 83}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{365, 632}, {243, 243}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{608, 612}, {167, 43}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{608, 612}, {241, 103}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{525, 802}, {197, 73}}</string>
 					<string>{{42, 1079}, {478, 20}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{74, 862}</string>
 					<string>{{11, 977}, {423, 20}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<string>{{475, 832}, {234, 43}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<string>{{409, 832}, {176, 43}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{608, 612}, {215, 63}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<string>{{554, 520}, {480, 291}}</string>
 					<reference ref="145820752"/>
+=======
+					<string>{{340, 561}, {352, 291}}</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<string>{{771, -625}, {352, 291}}</string>
+=======
+					<string>{{340, 561}, {352, 291}}</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{771, -625}, {352, 291}}</string>
 					<reference ref="9"/>
 					<string>{3.40282e+38, 3.40282e+38}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<integer value="0" id="8"/>
 					<reference ref="574714943"/>
 					<reference ref="8"/>
 					<reference ref="8"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
 					<reference ref="145820752"/>
@@ -2491,48 +3135,130 @@
 					<string id="495725878">CollectionView</string>
 					<reference ref="145820752"/>
 					<string id="71805222">CollectionViewItem</string>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>CollectionView</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>CollectionViewItem</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<string>MessageView</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<string>{{784, -722}, {305, 70}}</string>
 					<reference ref="145820752"/>
+=======
+					<string>{{0, 1075}, {305, 70}}</string>
+					<string>{{450, 78}, {305, 70}}</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<reference ref="9"/>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<reference ref="9"/>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<reference ref="9"/>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
+					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
+					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
+					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
+					<reference ref="145820752"/>
+					<reference ref="145820752"/>
 					<reference ref="9"/>
 					<reference ref="145820752"/>
 					<reference ref="9"/>
 					<reference ref="145820752"/>
-					<reference ref="145820752"/>
 					<reference ref="9"/>
 					<reference ref="145820752"/>
-					<reference ref="9"/>
-					<reference ref="145820752"/>
-					<reference ref="9"/>
-					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{23, 794}, {235, 183}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 					<string>{{323, 672}, {199, 203}}</string>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference ref="145820752"/>
+=======
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<reference ref="9"/>
 				</object>
 			</object>
@@ -2556,12 +3282,17 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 			<int key="maxID">474</int>
+=======
+			<int key="maxID">475</int>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<string key="className">MessageView</string>
 					<string key="superclassName">NSView</string>
 					<object class="NSMutableDictionary" key="actions">
@@ -2582,38 +3313,35 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 						</object>
 					</object>
+=======
+					<string key="className">AppController</string>
+					<string key="superclassName">NSObject</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<string key="majorKey" id="483745584">IBProjectSource</string>
 						<string key="minorKey">MessageView.rb</string>
+=======
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">AppController.rb</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
-					<string key="className">CollectionView</string>
-					<string key="superclassName">NSCollectionView</string>
-					<object class="NSMutableDictionary" key="actions">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="outlets">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
-					</object>
+					<string key="className">BonjourWatcher</string>
+					<string key="superclassName">NSObject</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="majorKey" ref="483745584"/>
 						<string key="minorKey">CollectionView.rb</string>
+=======
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">BonjourWatcher.rb</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference key="className" ref="495725878"/>
 					<nil key="superclassName"/>
 					<object class="NSMutableDictionary" key="actions">
@@ -2629,12 +3357,22 @@
 						<reference key="NS.key.0" ref="436867821"/>
 						<reference key="NS.object.0" ref="71805222"/>
 					</object>
+=======
+					<string key="className">BonjourWatcher</string>
+					<string key="superclassName">NSObject</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<string key="majorKey" id="999728293">IBUserSource</string>
 						<reference key="minorKey" ref="131746017"/>
+=======
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<string key="className">CollectionViewItem</string>
 					<string key="superclassName">NSCollectionViewItem</string>
 					<object class="NSMutableDictionary" key="actions">
@@ -2655,12 +3393,22 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 						</object>
 					</object>
+=======
+					<string key="className">CollectionView</string>
+					<string key="superclassName">NSCollectionView</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="majorKey" ref="483745584"/>
 						<string key="minorKey">CollectionViewItem.rb</string>
+=======
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">CollectionView.rb</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<reference key="className" ref="724575051"/>
 					<nil key="superclassName"/>
 					<object class="NSMutableDictionary" key="actions">
@@ -2672,21 +3420,26 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 						</object>
 					</object>
+=======
+					<string key="className">CollectionView</string>
+					<string key="superclassName">NSCollectionView</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<object class="NSMutableDictionary" key="outlets">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<object class="NSArray" key="dict.sortedKeys">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
-						<object class="NSMutableArray" key="dict.values">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
+						<string key="NS.key.0">itemPrototype</string>
+						<string key="NS.object.0">CollectionViewItem</string>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="majorKey" ref="999728293"/>
 						<reference key="minorKey" ref="131746017"/>
+=======
+						<string key="majorKey">IBUserSource</string>
+						<string key="minorKey"/>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<string key="className">BonjourWatcher</string>
 					<string key="superclassName" id="14044359">NSObject</string>
 					<object class="NSMutableDictionary" key="actions">
@@ -2707,12 +3460,22 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 						</object>
 					</object>
+=======
+					<string key="className">CollectionViewItem</string>
+					<string key="superclassName">NSCollectionViewItem</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="majorKey" ref="483745584"/>
 						<string key="minorKey">BonjourWatcher.rb</string>
+=======
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">CollectionViewItem.rb</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 					<string key="className">AppController</string>
 					<reference key="superclassName" ref="14044359"/>
 					<object class="NSMutableDictionary" key="actions">
@@ -2733,16 +3496,26 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 						</object>
 					</object>
+=======
+					<string key="className">MessageView</string>
+					<string key="superclassName">NSView</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 						<reference key="majorKey" ref="483745584"/>
 						<string key="minorKey">AppController.rb</string>
+=======
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">MessageView.rb</string>
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 					</object>
 				</object>
 			</object>
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.LastKnownRelativeProjectPath">../../starjour.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../starjour.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+<<<<<<< HEAD:English.lproj/MainMenu.xib
 		<object class="NSMutableData" key="IBDocument.RunnableNib">
 			<bytes key="NS.bytes">YnBsaXN0MDDUAAEAAgADAAQABQAGAAkAClgkdmVyc2lvblQkdG9wWSRhcmNoaXZlclgkb2JqZWN0cxIA
 AYag0QAHAAhdSUIub2JqZWN0ZGF0YYABXxAPTlNLZXllZEFyY2hpdmVyrxECngALAAwAMQA1ADYAPAA9
@@ -3148,5 +3921,7 @@ hkmJSYtJjUmPSZFJlEmWSZhJm0meSaFJpEmmSalJq0mtSa9Jskm1SbhJu0m9ScBJw0nFSchJyknMSc9J
 0UnUSdZJ2UnbSd5J50npSepJ80n1SfZJ/0oBSgJKC0oQAAAAAAAAAgIAAAAAAAAJ/wAAAAAAAAAAAAAA
 AAAASh8</bytes>
 		</object>
+=======
+>>>>>>> added debugging mouseDown::English.lproj/MainMenu.xib
 	</data>
 </archive>

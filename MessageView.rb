@@ -23,5 +23,14 @@ class MessageView <  OSX::NSView
 
     super_drawRect rect
   end
+  
+  def mouseDown(event)
+    puts "mouseDown"
+    
+    p self.class.ancestors
+    
+    super_mouseDown(event)
+  end
+  objc_method :mouseDown, [:void, :id]
 
 end
