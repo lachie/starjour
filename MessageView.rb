@@ -25,12 +25,13 @@ class MessageView <  OSX::NSView
   end
   
   def mouseDown(event)
-    puts "mouseDown"
+    # check for double-clicks
+    if event.clickCount > 1
+      puts "double click"
+      # self.delegate.doubleClick(self) rescue nil if self.delegate
+    end
     
-    p self.class.ancestors
-    
-    super_mouseDown(event)
+  	nextResponder.mouseDown(event)
   end
-  objc_method :mouseDown, [:void, :id]
 
 end
