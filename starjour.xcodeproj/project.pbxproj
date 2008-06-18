@@ -20,6 +20,7 @@
 		4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8F5E25803AEB7C803A81C6F /* rb_main.rb */; };
 		4DDCA70A0ACC9A6100E082CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CE26873E0E092BCE0068195C /* star-jour.icns in Resources */ = {isa = PBXBuildFile; fileRef = CE26873D0E092BCE0068195C /* star-jour.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		31FBE7DE0E03E7E000213906 /* AppController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppController.rb; sourceTree = "<group>"; };
 		4DDCA7110ACC9A6100E082CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DDCA7120ACC9A6100E082CE /* starjour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starjour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE26873D0E092BCE0068195C /* star-jour.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "star-jour.icns"; sourceTree = "<group>"; };
 		E8F5E25803AEB7C803A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE26873D0E092BCE0068195C /* star-jour.icns */,
 				08B2B5740E022EC60084F4D3 /* MainMenu.xib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
@@ -199,6 +202,7 @@
 				31FBE7DF0E03E7E000213906 /* AppController.rb in Resources */,
 				31D9736D0E08C72A0051DC91 /* Rakefile in Resources */,
 				31D9736E0E08C72A0051DC91 /* Readme.textile in Resources */,
+				CE26873E0E092BCE0068195C /* star-jour.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,10 +283,9 @@
 		4DDCA7100ACC9A6100E082CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_MODEL_TUNING = G5;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
