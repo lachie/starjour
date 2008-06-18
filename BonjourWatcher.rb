@@ -44,6 +44,10 @@ class BonjourWatcher < OSX::NSObject
     service('rubygems') do |service|
       ['gemjour', "gem server #{service.name}", lambda {|msg|}]
     end
+
+    service('http') do |service|
+      ['appjour', "appjour #{service.name}", lambda {|msg|}]
+    end
   end
   
   def load_rc
