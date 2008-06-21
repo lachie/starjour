@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080DA5440E0CD5E5009AFF17 /* AppJour.xib in Resources */ = {isa = PBXBuildFile; fileRef = 080DA5430E0CD5E5009AFF17 /* AppJour.xib */; };
+		080DA55C0E0CDE29009AFF17 /* GitJour.xib in Resources */ = {isa = PBXBuildFile; fileRef = 080DA55B0E0CDE29009AFF17 /* GitJour.xib */; };
+		080DA55E0E0CDE32009AFF17 /* GemJour.xib in Resources */ = {isa = PBXBuildFile; fileRef = 080DA55D0E0CDE32009AFF17 /* GemJour.xib */; };
+		083C8C080E0C750C00E2D5AD /* Jour.rb in Resources */ = {isa = PBXBuildFile; fileRef = 083C8C070E0C750C00E2D5AD /* Jour.rb */; };
+		083C8C0A0E0C751C00E2D5AD /* GitJour.rb in Resources */ = {isa = PBXBuildFile; fileRef = 083C8C090E0C751C00E2D5AD /* GitJour.rb */; };
+		083C8C0C0E0C756000E2D5AD /* AppJour.rb in Resources */ = {isa = PBXBuildFile; fileRef = 083C8C0B0E0C756000E2D5AD /* AppJour.rb */; };
+		083C8C0E0E0C766800E2D5AD /* GemJour.rb in Resources */ = {isa = PBXBuildFile; fileRef = 083C8C0D0E0C766800E2D5AD /* GemJour.rb */; };
+		083C8C100E0C767B00E2D5AD /* PasteJour.rb in Resources */ = {isa = PBXBuildFile; fileRef = 083C8C0F0E0C767B00E2D5AD /* PasteJour.rb */; };
+		083C8C6C0E0C882300E2D5AD /* ServiceKind.rb in Resources */ = {isa = PBXBuildFile; fileRef = 083C8C6B0E0C882300E2D5AD /* ServiceKind.rb */; };
+		083C8CB00E0CA30700E2D5AD /* PasteJour.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083C8CAF0E0CA30700E2D5AD /* PasteJour.xib */; };
 		086D84500E020012008A3B2B /* BonjourWatcher.rb in Resources */ = {isa = PBXBuildFile; fileRef = 086D844F0E020011008A3B2B /* BonjourWatcher.rb */; };
 		08B2B5760E022EC60084F4D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B2B5740E022EC60084F4D3 /* MainMenu.xib */; };
 		08B2B5970E0241DE0084F4D3 /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B2B5960E0241DE0084F4D3 /* RubyCocoa.framework */; };
@@ -24,6 +34,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080DA5430E0CD5E5009AFF17 /* AppJour.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppJour.xib; sourceTree = "<group>"; };
+		080DA55B0E0CDE29009AFF17 /* GitJour.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GitJour.xib; sourceTree = "<group>"; };
+		080DA55D0E0CDE32009AFF17 /* GemJour.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GemJour.xib; sourceTree = "<group>"; };
+		083C8C070E0C750C00E2D5AD /* Jour.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Jour.rb; sourceTree = "<group>"; };
+		083C8C090E0C751C00E2D5AD /* GitJour.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GitJour.rb; sourceTree = "<group>"; };
+		083C8C0B0E0C756000E2D5AD /* AppJour.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppJour.rb; sourceTree = "<group>"; };
+		083C8C0D0E0C766800E2D5AD /* GemJour.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GemJour.rb; sourceTree = "<group>"; };
+		083C8C0F0E0C767B00E2D5AD /* PasteJour.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = PasteJour.rb; sourceTree = "<group>"; };
+		083C8C6B0E0C882300E2D5AD /* ServiceKind.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ServiceKind.rb; sourceTree = "<group>"; };
+		083C8CAF0E0CA30700E2D5AD /* PasteJour.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasteJour.xib; sourceTree = "<group>"; };
 		086D844F0E020011008A3B2B /* BonjourWatcher.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = BonjourWatcher.rb; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08B2B5750E022EC60084F4D3 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -65,6 +85,12 @@
 				31FBE7D10E03E6BB00213906 /* CollectionView.rb */,
 				31FBE7D60E03E74400213906 /* CollectionViewItem.rb */,
 				31FBE7DE0E03E7E000213906 /* AppController.rb */,
+				083C8C070E0C750C00E2D5AD /* Jour.rb */,
+				083C8C090E0C751C00E2D5AD /* GitJour.rb */,
+				083C8C0B0E0C756000E2D5AD /* AppJour.rb */,
+				083C8C0D0E0C766800E2D5AD /* GemJour.rb */,
+				083C8C0F0E0C767B00E2D5AD /* PasteJour.rb */,
+				083C8C6B0E0C882300E2D5AD /* ServiceKind.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -125,6 +151,10 @@
 				CE26873D0E092BCE0068195C /* star-jour.icns */,
 				08B2B5740E022EC60084F4D3 /* MainMenu.xib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				083C8CAF0E0CA30700E2D5AD /* PasteJour.xib */,
+				080DA5430E0CD5E5009AFF17 /* AppJour.xib */,
+				080DA55B0E0CDE29009AFF17 /* GitJour.xib */,
+				080DA55D0E0CDE32009AFF17 /* GemJour.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -203,6 +233,16 @@
 				31D9736D0E08C72A0051DC91 /* Rakefile in Resources */,
 				31D9736E0E08C72A0051DC91 /* Readme.textile in Resources */,
 				CE26873E0E092BCE0068195C /* star-jour.icns in Resources */,
+				083C8C080E0C750C00E2D5AD /* Jour.rb in Resources */,
+				083C8C0A0E0C751C00E2D5AD /* GitJour.rb in Resources */,
+				083C8C0C0E0C756000E2D5AD /* AppJour.rb in Resources */,
+				083C8C0E0E0C766800E2D5AD /* GemJour.rb in Resources */,
+				083C8C100E0C767B00E2D5AD /* PasteJour.rb in Resources */,
+				083C8C6C0E0C882300E2D5AD /* ServiceKind.rb in Resources */,
+				083C8CB00E0CA30700E2D5AD /* PasteJour.xib in Resources */,
+				080DA5440E0CD5E5009AFF17 /* AppJour.xib in Resources */,
+				080DA55C0E0CDE29009AFF17 /* GitJour.xib in Resources */,
+				080DA55E0E0CDE32009AFF17 /* GemJour.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

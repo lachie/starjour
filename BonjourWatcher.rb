@@ -3,52 +3,66 @@ require 'osx/cocoa'
 class BonjourWatcher < OSX::NSObject
   include OSX
   
-  kvc_array_accessor :messages
-  attr_reader :known_services
+  kvc_accessor :servicekinds
+  kvc_array_accessor :servicekinds
   
   kvc_accessor :status
   
+  ib_outlet :detail_view
+  ib_outlet :outline_view
+  
   def init
 		if super_init
-			@messages = NSMutableArray.alloc.init
+		  @servicekinds  = NSMutableArray.alloc.init
+      @selectedItems = NSMutableArray.alloc.init
 			return self
 		end
 	end
 	
 	def awakeFromNib
 	  self.status = 'setting up...'
+	  
 	  setup_known_services
 	  load_rc
+	  
 		browse
 		self.status = ''
+		
+	  @outline_view.expandItem_expandChildren(nil,true)
 	end
 	
 	def setup_known_services
-    @known_services = {}
-    @service_browsers = {}
-    @service_messages = {}
+    service('pastejour', PasteJour)
+    service('http'     , AppJour  )
+    service('git'      , GitJour  )
+    service('rubygems' , GemJour  )
     
-    service('git') do |service|
-      [ "gitjour", "git clone #{service.name}", lambda {|msg|} ]
-    end
+    # service('git'      , GitJour  )
+    # service('rubygems' , GemJour  )
+    # service('http'     , AppJour  )
     
-    service('pastejour') do |service|
-      (from, to) = *service.name.split('-')
-      
-      message = "Paste from #{from}"
-      message << " to #{to}" if to
-      
-      ['pastejour', message, lambda {|msg| system("/opt/local/bin/pastejour '#{msg[:service].name}' | pbcopy"); 'copied to pasteboard'}]
-    end
-    
-    service('rubygems') do |service|
-      ['gemjour', "gem server #{service.name}", lambda {|msg|}]
-    end
-
-    service('http') do |service|
-      ['appjour', "appjour #{service.name}", lambda {|msg|}]
-    end
+    # service('git') do |service|
+    #       [ "gitjour", "git clone #{service.name}", lambda {|msg|} ]
+    #     end
+    #     
+    #     service('pastejour') do |service|
+    #       (from, to) = *service.name.split('-')
+    #       
+    #       message = "Paste from #{from}"
+    #       message << " to #{to}" if to
+    #       
+    #       ['pastejour', message, lambda {|msg| system("/opt/local/bin/pastejour '#{msg[:service].name}' | pbcopy"); 'copied to pasteboard'}]
+    #     end
+    #     
+    #     service('rubygems') do |service|
+    #       ['gemjour', "gem server #{service.name}", lambda {|msg|}]
+    #     end
+    # 
+    #     service('http') do |service|
+    #       ['appjour', "appjour #{service.name}", lambda {|msg|}]
+    #     end
   end
+  
   
   def load_rc
     rcfile = "#{ENV['HOME']}/.jourrc"
@@ -57,27 +71,50 @@ class BonjourWatcher < OSX::NSObject
     end
   end
   
-  def service(name,srv_class=nil,&block)
-    known_services[name.to_s] = srv_class || block
+  def service(name,klass)    
+    srv = ServiceKind.alloc.initWithName_andClass(name,klass)
+    insertObject_inServicekindsAtIndex(srv, @servicekinds.size)
   end
 	
 	def browse
-	  @known_services.each_key do |name|
-	    @service_browsers[name] = browser = NSNetServiceBrowser.alloc.init
-			browser.setDelegate self
-  	  browser.searchForServicesOfType_inDomain("_#{name}._tcp","")
+	  servicekinds.each do |srv|
+	    browser = NSNetServiceBrowser.alloc.init
+			browser.delegate = self
+  	  browser.searchForServicesOfType_inDomain(srv.service_type, "")
   	end
   end
   
   
-  def messageClicked(selectedObjects)
-    message = selectedObjects.first
+  # def selectedItems; @selectedItems end
+  def selectedItems=(selectedItems)
+    @selectedItems = selectedItems
     
-    if message.respond_to?(:run)
-      self.status = message.run
-    elsif message.respond_to?(:key?) && message[:runner] && message[:runner].respond_to?(:call)
-      self.status = message[:runner].call(message)
+    if !selectedItems or selectedItems.length < 1
+      @detail_view.subviews.each {|sv| sv.removeFromSuperview}
+      return
     end
+    
+    path = selectedItems.first
+    if path.length == 2
+      srv_index  = path.indexAtPosition(0)
+      jour_index = path.indexAtPosition(1)
+      
+      srv = @servicekinds[srv_index]
+      jour = srv.children[jour_index]
+      
+      puts "jour.text: #{jour.text}"
+      update_view(jour)
+    end
+
+  end
+  kvc_accessor :selectedItems
+  
+  def update_view(jour)
+    return unless jour.view?
+    
+    @detail_view.subviews.each {|sv| sv.removeFromSuperview}
+    @detail_view.addSubview jour.view
+    jour.view.frame = @detail_view.bounds
   end
 	
 	def netServiceBrowserWillSearch(ns)
@@ -88,35 +125,23 @@ class BonjourWatcher < OSX::NSObject
 		puts "didn't start searching due to error #{errorDict.to_ruby.inspect}"
 	end
 	
-	def service_key(service)
-	  service.name.to_ruby + service.oc_type.to_ruby
-	end
-	
 	def netServiceBrowser_didFindService_moreComing(nsb,service,more)
-    name = service.oc_type.to_ruby[/_([^\.]+)\._tcp/,1]
-    
-    if srv = @known_services[name]
-      if srv.respond_to?(:call)
-        service_name,text,runner = srv.call(service)
-        message = {:service_name => service_name, :text => text, :runner => runner, 
-            :service => service, :image => NSWorkspace.sharedWorkspace.iconForFile('/')}
-      else
-        message = srv.alloc.initWithService(service)
-      end
-      
-      index = @messages.size
-      insertObject_inMessagesAtIndex(message, index)
-      @service_messages[service_key(service)] = message
-    end
+    ServiceKind.found(service)
+	  @outline_view.expandItem_expandChildren(nil,true)
 	end
 
 	def netServiceBrowser_didRemoveService_moreComing(nsb,service,more)
-		puts "removing service #{service.name}"
-		if message = @service_messages[service_key(service)]
-		  index = @messages.index(message)
-		  removeObjectFromMessagesAtIndex(index)
-	  end
+		puts "lost service #{service.name}"
+	  ServiceKind.lost(service)
+	  @outline_view.expandItem_expandChildren(nil,true)
 	end
-	
-	
+  
+  
+  def outlineView_isGroupItem(outlineView,item)
+    item.representedObject.is_a?(ServiceKind)
+  end
+  
+  def outlineView_shouldSelectItem(outlineView,item)
+    !item.representedObject.is_a?(ServiceKind)
+  end
 end

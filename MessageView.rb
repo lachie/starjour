@@ -24,14 +24,14 @@ class MessageView <  OSX::NSView
     super_drawRect rect
   end
   
-  def mouseDown(event)
-    # check for double-clicks
-    if event.clickCount > 1
-      puts "double click"
-      # self.delegate.doubleClick(self) rescue nil if self.delegate
-    end
-    
-  	nextResponder.mouseDown(event)
-  end
+  # def mouseDown(event)
+  #    # check for double-clicks
+  #    if event.clickCount > 1
+  #      puts "double click"
+  #      # self.delegate.doubleClick(self) rescue nil if self.delegate
+  #    end
+  #    
+  #   nextResponder.mouseDown(event)
+  #  end
 
 end
