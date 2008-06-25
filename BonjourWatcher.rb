@@ -137,6 +137,7 @@ class BonjourWatcher < OSX::NSObject
 	end
   
   
+  # olv delegate
   def outlineView_isGroupItem(outlineView,item)
     item.representedObject.is_a?(ServiceKind)
   end
@@ -144,4 +145,13 @@ class BonjourWatcher < OSX::NSObject
   def outlineView_shouldSelectItem(outlineView,item)
     !item.representedObject.is_a?(ServiceKind)
   end
+  
+  def outlineView_shouldCollapseItem(outline_view,item)
+    item.representedObject.is_a?(ServiceKind)
+  end
+  
+  def pcOutlineView_shouldShowDisclosureTriangleForItem(outline_view,item)
+    item.representedObject.is_a?(ServiceKind)
+  end
+    
 end
